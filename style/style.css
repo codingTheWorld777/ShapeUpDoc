@@ -58,7 +58,7 @@ body {
 	padding: 10px 0px;
 }
 
-/* */
+/* Experience */
 .caption {
 	font-size: 24px;
 	color: #e06b75;
@@ -89,6 +89,10 @@ table {
 
 .experience table tr:hover, .formation table tr:hover, .languageCompetence table tr .date:hover {
 	background-color: #efc2c5;
+}
+
+.motivation li {
+	list-style-position: inside;
 }
 
 
