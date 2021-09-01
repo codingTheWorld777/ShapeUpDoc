@@ -1,157 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2021, 11:10:34 PM
+
+    @Suject     : My CV in Web-version (responsive web)
+    @Author     : Huu Khai NGUYEN (Alec)
+*/
+
 body {
-	font-family: "Gill Sans", sans-serif;
-	background-color: #fff7ed;
+    font-family: "Gill Sans", sans-serif;
+    background-color: #fff7ed;
 }
 
-.intro, .experience, .formation, .languageCompetence, .project {
-	padding: 18px 40px;
+.intro, .experience, .formation, .languageCompetence, .compInDetail, .project, .company, .unites {
+    padding: 18px 40px;
 }
 
 .languageCompetence {
-	 padding-left: 24px;
-	 padding-right: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 /* Introduction */
 .intro {
-	background-color: #efc2c5;
-	margin-bottom: 0px;
+    background-color: #efc2c5;
+    margin-bottom: 0px;
 }
 
 .imgGroup {
-	align-content: center;
+    align-content: center;
 }
 
 .avatar {
-	display: block;
-  	width: 170px;
-  	height: 170px;
-  	border: 4px solid white;
-	border-radius: 50%;
+    display: block;
+    width: 170px;
+    height: 170px;
+    border: 4px solid white;
+    border-radius: 50%;
 }
 
 .avatar:hover {
-	border: 4px solid black;
-
+    border: 4px solid black;
+    opacity: 80%;
+    transform: rotate(360deg);
+    background-image: url("./images/logo.jpg");
+    transition: 0.8s ease;
 }
 
 .fa-w-16 {
-	filter: invert(var(--invert)) 
-          sepia(var(--sepia)) 
-          saturate(var(--saturate))
-          hue-rotate(var(--hueRotate))
-          brightness(var(--brightness));
+    filter: invert(var(--invert)) 
+        sepia(var(--sepia)) 
+        saturate(var(--saturate))
+        hue-rotate(var(--hueRotate))
+        brightness(var(--brightness));
 }
 
 .about {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 /* Contact information */
 .contact {
-	background-color: #f2f2f2;
-	margin-top: 0px;
+    background-color: #f2f2f2;
+    margin-top: 0px;
 }
 
 .contact ul li {
-	list-style-type: none;
-	padding: 10px 0px;
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.contact ul li .contact-me {
+    color: #007bff;
 }
 
 /* Experience */
 .caption {
-	font-size: 24px;
-	color: #e06b75;
-	border-bottom: 1px solid #e06b75;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e06b75;
+    border-bottom: 1px solid #e06b75;
 }
 
 .date {
-	padding-right: 100px;
-	width: 40%;
+    padding-right: 100px;
+    width: 40%;
 }
 
 .title {
-	padding-left: 100px;
-	font-size: 24px;
+    padding-left: 100px;
+    font-size: 24px;
 }
 
 .location, .motivation {
-	padding-left: 100px;
+    padding-left: 100px;
 }
 
 .location {
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 .experience table tr:hover, .formation table tr:hover, .languageCompetence table tr .date:hover {
-	background-color: #efc2c5;
+    background-color: #efc2c5;
+    font-size: 18px;
 }
 
 .motivation li {
-	list-style-position: inside;
+    list-style-position: inside;
 }
 
 
 /* Language and competence */
 .competence {
-	margin-top: 10px;
-	padding: 14px 10px;
-	padding-right: 0px;
-	background-color: #c9302c;
-	color: white;
-	font-weight: bold;
+    margin-top: 10px;
+    padding: 14px 10px;
+    padding-right: 0px;
+    background-color: #c9302c;
+    color: white;
+    font-weight: bold;
 }
 
 .competence:hover {
-	background-color: #e06b75;
+    background-color: #e06b75;
 }
 
 
 /* Project */
 .project ul li:hover {
-	background-color: #efc2c5;
+    background-color: #efc2c5;
+    font-size: 18px;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
+    color: black;
 }
 
 a:visited, .svg-inline--fa {
-	color: black;
+    color: black;
 }
 
 a:active {
-	color: #c9302c;
+    color: #c9302c;
 }
 
 
 /* Icon in footer section*/
 .svg-inline--fa:hover {
-	color: #007bff;
+    color: #007bff;
 }
 
 .svg-inline--fa:active {
-	color: #c9302c;
+    color: #c9302c;
+}
+
+
+/* Next button */
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container a i {
+    color: white;
+}
+
+.next-btn {
+    font-size: 18px;
+    padding: 10px 18px;
+    background-color: #007bff;
+    border-radius: 4%;
 }
 
 /* Footer */
 .contact-info {
-	font-family: 'Courier New', Courier, monospace;
-	border-top: 2px solid #ddd;
-	border-bottom: 2px solid #f2f2f2;
-	margin: 24px 100px;
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #f2f2f2;
+    margin: 24px 100px;
 }
 
 .findMe {
-	font-size: 34px; 
-	font-weight: bold;
-	color: #646464;
+    font-size: 34px; 
+    font-weight: bold;
+    color: #646464;
 }
 
 .findMe:hover, h6:hover {
-	color: #007bff;
+    color: #007bff;
+}
+
+#nom {
+    text-decoration: underline;
+    color: black;
 }

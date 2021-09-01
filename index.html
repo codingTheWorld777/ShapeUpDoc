@@ -3,79 +3,104 @@
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
+
+@Author: Huu Khai NGUYEN (Alec)
 -->
 
-<html lang="en">
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CV | Huu Khai NGUYEN</title>
 
-	<link rel="icon" href="/style/images/logo.jpg" type="image/icon type">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="/style/style.css" type="text/css">
+	<link rel="icon" href="style/images/logo.jpg" type="image/icon_type">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
 </head>
 
 
 <body>
-	<div class="intro">
+	<!-- 1. CV's header -->
+	<section class="intro">
 		<div class="d-flex flex-row justify-content-center mb-2">
 			<span class="imgGroup d-flex flex-column justify-content-center">
-				<div class="d-flex justify-content-center mb-2"><img class="avatar" src="/style/images/profil_photo.jpg" alt="Avatar"></div>
-				<b class="name mb-3" style="font-size: 30px;">Huu Khai NGUYEN</b>
+				<div class="d-flex justify-content-center mb-2">
+					<img class="avatar" src="style/images/profil_photo.jpg" alt="Avatar">
+				</div>
+
+				<h1 style="font-weight: bold">Huu Khai NGUYEN</h1>
 			</span>
 		</div>
 
 		<div class="about">
 			<p><b>Étudiant ingénieur en Informatique et Systèmes d'Information</b></p>
-			<p style="margin-bottom: 35px">Recherche d'un stage d'une durée de 6 mois en <b>Front-end Web Developpement</b>, à partir du Mars 2022</p>
+			<p style="margin-bottom: 35px">Recherche d'un stage d'une durée de 6 mois en <b>Front-end Web
+					Developpement</b>, à partir du Février 2022</p>
+			<p>Je parle notamment le langage Javascript.</p>
 
-			<p>Je suis <b>motivé</b>, <b>curieux</b> et <b>réservé</b>. Passionné en Informatique, je souhaite mettre à votre profit les compétences que j'ai acquises tant à mon université qu'en auto-apprentissage pour que mon stage se passe bien dans votre organisation.
-            </p>
+			<p>Je suis <b>motivé</b>, <b>curieux</b> et <b>réservé</b>. Passionné en Informatique, je souhaite mettre à
+				votre profit les compétences que j'ai acquises tant à mon université qu'en auto-apprentissage pour que
+				mon stage se passe bien dans votre organisation.
+			</p>
 		</div>
-	</div>
+	</section>
 
-	<div class="contact">
+	<section class="contact">
 		<ul style="margin: 0px;">
-			<li><b>Email: </b><a href="mailto:khainguyenhuu121@gmail.com" style="color: black; ">khainguyenhuu121@gmail.com</a></li>
-			<li><b>Addresse: </b>13 rue de Québec, 10000 Troyes, France</li>
-			<li><b>Télephone: </b><a href="tel: +33 6 56 88 04 42" style="color: black;">+33 6 56 88 04 42</a></li>
-			<li><b>Date de naissance: </b>19-04-2000</li>
-			<li><b>Nationalité: </b>Vietnammienne</li>
+			<li><b>Email: </b><a class="contact-me"
+					href="mailto:khainguyenhuu121@gmail.com ">khainguyenhuu121@gmail.com</a></li>
+			<li>
+				<b>Addresse: </b>
+				<a class="contact-me" target="_blank"
+					href="https://www.google.fr/maps/place/91+Av.+des+Lombards,+10000+Troyes/@48.2686987,4.0827893,17z/data=!3m1!4b1!4m5!3m4!1s0x47ee99130c90fadb:0xea4cd982456aef5d!8m2!3d48.2686987!4d4.084978?hl=en">
+					91 avenue des Lombards, appt 22, 10000 Troyes, France
+				</a>
+			</li>
+			<li><b>Télephone: </b><a class="contact-me" href="tel: +33 6 56 88 04 42">+33 6 56 88 04 42</a></li>
+			<li><b>Date de naissance: </b><span class="contact-me">19-04-2000</span></li>
+			<li><b>Nationalité: </b><span class="contact-me">Vietnammienne</span></li>
 		</ul>
-	</div>
+	</section>
 
-	<div class="experience">
-		<p class="caption"><b>Expérience</b></p>
+
+	<!-- 2. CV's body -->
+	<section class="experience">
+		<p class="caption">Expérience</p>
 		<table>
 			<tr>
 				<td class="date" rowspan="4">Juillet 2020 - Août 2020</td>
 				<td class="description">
 					<p class="title">Préparateur de commandes</p>
 
-					<p class="location"><b><a href="https://www.chronodrive.com/prehome" target="_blank">Chronodrive </a></b> • St-Andrés-les-Vergers, Troyes </p>
+					<p class="location"><b><a href="https://www.chronodrive.com/prehome" target="_blank">Chronodrive
+							</a></b> • St-Andrés-les-Vergers, Troyes </p>
 
 					<ul class="motivation">
 						<li>
-							J'étais un préparateur de commandes pendant mon stage ouvrier qui effectuais la préparation et aussi le stock de commandes pour les livrer aux clients.
+							J'étais un préparateur de commandes pendant mon stage ouvrier qui effectuais la préparation
+							et aussi le stock de commandes pour les livrer aux clients.
 						</li>
 					</ul>
 				</td>
 			</tr>
 
 		</table>
-	</div>
+	</section>
 
-	<div class="formation">
-		<p class="caption"><b>Formation</b></p>
+	<section class="formation">
+		<p class="caption">Formation</p>
 		<table>
 			<tr>
 				<td class="date">Février 2019 - Présent</td>
 				<td class="description">
 					<p class="title">Diplôme d'Ingénieur en Informatique et Systèmes d'Information</p>
 
-					<p class="location"><b><a href="https://www.utt.fr/" target="_blank">Université de technologie de Troyes </a></b> • Troyes, France</p>
+					<p class="location"><b><a href="https://www.utt.fr/" target="_blank">Université de technologie de
+								Troyes </a></b> • Troyes, France</p>
 				</td>
 			</tr>
 
@@ -84,17 +109,18 @@ and open the template in the editor.
 				<td class="description">
 					<p class="title">Baccalauréat</p>
 
-					<p class="location"><b><a href="http://www.thpt-lequydon-danang.edu.vn/" target="_blank">Lycée d'élite Le Quy Don </a></b> • Danang, Vietnam</p>
+					<p class="location"><b><a href="http://www.thpt-lequydon-danang.edu.vn/" target="_blank">Lycée
+								d'élite Le Quy Don </a></b> • Danang, Vietnam</p>
 				</td>
 			</tr>
 
 		</table>
-	</div>
+	</section>
 
-	<div class="languageCompetence d-flex flex-row justify-content-center">
+	<section class="languageCompetence d-flex flex-row justify-content-center">
 		<!-- Langue -->
 		<div class="col-6 col-sm-6 pr-0">
-			<div class="caption"><b>Langues</b></div>
+			<div class="caption">Langues</div>
 
 			<div class="date my-4" style="width: 100%; ">
 				<b>Anglais </b>
@@ -114,24 +140,25 @@ and open the template in the editor.
 
 		<!-- Compétences -->
 		<div class="col-6 col-sm-6 pl-0">
-			<div class="caption"><b>Compétences</b></div>
+			<div class="caption">Compétences</div>
 
-			<div class="description my-2">
-				<p class="competence">LANGAGES ET FRAMEWORK: Java, Javascript, ReactJS, ReactNative, ExpressJS</p>
+			<div class="description my-2" style="border-left: 7px solid #e06b75;">
+				<p class="competence">LANGAGES ET FRAMEWORK/BIBLIOTHÈQUE: Java, Javascript, ReactJS, ReactNative,
+					ExpressJS, PHP/MySQL</p>
 			</div>
 
-			<div class="description my-2">
+			<div class="description my-2" style="border-left: 7px solid #e06b75;">
 				<p class="competence">WEB: HTML5, CSS/SCSS, Bootstrap</p>
 			</div>
 
-			<div class="description my-2">
+			<div class="description my-2" style="border-left: 7px solid #e06b75;">
 				<p class="competence">OUTILS ET TECHNOLOGIES: Git, Github, UML, MVC, Design Pattern</p>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="project">
-		<p class="caption"><b>Projet</b></p>
+	<section class="project">
+		<p class="caption">Projet</p>
 		<ul style="padding-left: 0px">
 			<li style="list-style-type: none; padding-bottom: 14px;">
 				<b>
@@ -140,7 +167,18 @@ and open the template in the editor.
 
 				<ul>
 					<li>Ce site comme mon CV numérique qui me permet de me présenter.</li>
-					<li>Langages/Technologies utilisé(e)s: HTML5, CSS/SCSS, Javascript, ReactJS.</li>
+				</ul>
+			</li>
+
+			<li style="list-style-type: none; padding-bottom: 14px;">
+				<b>
+					<a href="https://github.com/codingTheWorld777/Project----Vaccination-in-France"
+						target="_blank">Site Web simple: Campagne de vaccination en France</a>
+				</b>
+
+				<ul>
+					<li>Ce site simule la campage de vaccination en France</li>
+					<li>Langages/Technologies utilisé(e)s: HTML5, CSS/Bootstrap, Javascript, PHP/MySQL.</li>
 				</ul>
 			</li>
 
@@ -171,7 +209,8 @@ and open the template in the editor.
 
 			<li style="list-style-type: none;">
 				<b>
-					<a href="https://drive.google.com/drive/folders/1YpkcJdR6WpfH_YxlMz5z2gZ3IokhAlwy" target="_blank">CrackWars</a>
+					<a href="https://drive.google.com/drive/folders/1YpkcJdR6WpfH_YxlMz5z2gZ3IokhAlwy"
+						target="_blank">CrackWars</a>
 				</b>
 
 				<ul>
@@ -180,36 +219,65 @@ and open the template in the editor.
 				</ul>
 			</li>
 		</ul>
-	</div>
+	</section>
 
-	<div class="contact-info py-4">
-		<div class="d-flex flex-row justify-content-center mb-4 findMe" style="text-align: center; ">
+	<!-- 3. CV's footer -->
+	<section class="contact-info py-4">
+		<div class="d-flex flex-row justify-content-center mb-4 " style="text-align: center; ">
 			<!-- <strong id="findMe" style="font-size:34px; color: #646464">TROUVEZ-MOI ICI</strong> -->
-			TROUVEZ-MOI ICI
+			<span class="findMe">TROUVEZ-MOI ICI</span>
 		</div>
 
 		<div class="d-flex flex-row justify-content-center mb-2">
-			<a href="https://github.com/codingTheWorld777" target="_blank" class="svgIcon ml-4" style="width:32px; height:32px;">
-				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+			<a href="https://github.com/codingTheWorld777" target="_blank" class="svgIcon ml-4"
+				style="width:32px; height:32px;">
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
+					class="svg-inline--fa fa-github fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 496 512">
+					<path fill="currentColor"
+						d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+					</path>
+				</svg>
 			</a>
 
-			<a href="https://www.facebook.com/hk.nguyen1904/" target="_blank" class="svgIcon ml-4" style="width:16px; height:16px;">
-				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-9 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512"><path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path></svg>
+			<a href="https://www.facebook.com/hk.nguyen1904/" target="_blank" class="svgIcon ml-4"
+				style="width:16px; height:16px;">
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+					class="svg-inline--fa fa-facebook-f fa-w-9 " role="img" xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 264 512">
+					<path fill="currentColor"
+						d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229">
+					</path>
+				</svg>
 			</a>
 
-			<a href="https://www.linkedin.com/in/huu-khai-nguyen-a47053136/" target="_blank" class="svgIcon ml-4" style="width:29px; height:29px;">
-				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path></svg>
+			<a href="https://www.linkedin.com/in/huu-khai-nguyen-a47053136/" target="_blank" class="svgIcon ml-4"
+				style="width:29px; height:29px;">
+				<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+					class="svg-inline--fa fa-linkedin-in fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512">
+					<path fill="currentColor"
+						d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z">
+					</path>
+				</svg>
 			</a>
 
-			<a href="mailto:khainguyenhuu121@gmail.com" target="_blank" class="svgIcon ml-4" style="width:36px; height:36px; color:black; ">
-				<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>
+			<a href="mailto:khainguyenhuu121@gmail.com" target="_blank" class="svgIcon ml-4"
+				style="width:36px; height:36px; color:black; ">
+				<svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="envelope"
+					class="svg-inline--fa fa-envelope fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512">
+					<path fill="currentColor"
+						d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z">
+					</path>
+				</svg>
 			</a>
 		</div>
 
 		<div class="d-flex flex-row justify-content-center my-5" style="text-align: center; ">
 			<h6>@Luciferro1904 - Huu Khai NGUYEN</h6>
 		</div>
-	</div>
+	</section>
 </body>
 
 </html>
