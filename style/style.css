@@ -112,6 +112,12 @@ table {
     font-size: 18px;
 }
 
+.formation .hidden {
+    color: transparent;
+    margin-bottom: 0px;
+    height: 10px;
+}
+
 .motivation li {
     list-style-position: inside;
 }
