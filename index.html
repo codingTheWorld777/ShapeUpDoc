@@ -17,6 +17,7 @@ and open the template in the editor.
 	<link rel="icon" href="style/images/logo.jpg" type="image/icon_type">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<link rel="stylesheet" href="style/style.css" type="text/css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css">
@@ -49,7 +50,7 @@ and open the template in the editor.
 		</div>
 	</section>
 
-	<section class="contact">
+	<section class="contact py-2">
 		<ul style="margin: 0px;">
 			<li><b>Email: </b><a class="contact-me"
 					href="mailto:khainguyenhuu121@gmail.com ">khainguyenhuu121@gmail.com</a></li>
@@ -70,105 +71,101 @@ and open the template in the editor.
 	<!-- 2. CV's body -->
 	<section class="experience">
 		<p class="caption">Expérience</p>
-		<table>
-			<tr>
-				<td class="date" rowspan="4">Juillet 2020 - Août 2020</td>
-				<td class="description">
-					<p class="title">Préparateur de commandes</p>
+		<div class="row">
+			<div class="col-4" rowspan="4">Juillet 2020 - Août 2020</div>
+			<div class="col-8">
+				<div class="title">Préparateur de commandes</div>
 
-					<p class="location"><b><a href="https://www.chronodrive.com/prehome" target="_blank">Chronodrive
-							</a></b> • St-Andrés-les-Vergers, Troyes </p>
+				<div class="location"><b><a href="https://www.chronodrive.com/prehome" target="_blank">Chronodrive
+						</a></b> • St-Andrés-les-Vergers, Troyes </div>
 
-					<ul class="motivation">
-						<li>
-							J'étais un préparateur de commandes pendant mon stage ouvrier qui effectuais la préparation
-							et aussi le stock de commandes pour les livrer aux clients.
-						</li>
-					</ul>
-				</td>
-			</tr>
-
-		</table>
+				<ul class="motivation">
+					<li>
+						J'étais un préparateur de commandes pendant mon stage ouvrier qui effectuais la préparation
+						et aussi le stock de commandes pour les livrer aux clients.
+					</li>
+				</ul>
+			</div>
+		</div>
 	</section>
 
 	<!-- Formation -->
 	<section class="formation">
 		<p class="caption">Formation</p>
-		<table>
-			<tr>
-				<td class="date">Février 2019 - Présent</td>
-				<td class="description">
-					<div>
-						<p class="title">Diplôme d'Ingénieur en Informatique et Systèmes d'Information</p>
+		<div class="row" style="margin-bottom: 40px;">
+			<div class="col-4">Février 2019 - Présent</div>
+			<div class="col-8">
+				<div>
+					<div class="title">Diplôme d'Ingénieur en Informatique et Systèmes d'Information</div>
 
-						<p class="location"><b><a href="https://www.utt.fr/" target="_blank">Université de technologie
-									de
-									Troyes </a></b> • Troyes, France</p>
+					<div class="location"><b><a href="https://www.utt.fr/" target="_blank">Université de technologie
+								de
+								Troyes </a></b> • Troyes, France</div>
 
-						<ul class="motivation hidden">
-							<li>
-								J'étais un préparateur de commandes pendant mon stage ouvrier qui effectuais la
-								préparation
-								et aussi le stock de commandes pour les livrer aux clients.
-							</li>
-						</ul>
-					</div>
-				</td>
-			</tr>
+					<ul class="motivation">
+						<li>
+							Après 2 ans du cycle préparatoire à l'UTT, je suis actuellement un jeune ingénieur en Informatique et
+							système d'Information. 
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-			<tr>
-				<td class="date">Août 2015 - Mai 2018</td>
-				<td class="description">
-					<p class="title">Baccalauréat</p>
+		<div class="row">
+			<div class="col-4">Août 2015 - Mai 2018</div>
+			<div class="col-8">
+				<div class="title">Baccalauréat</div>
 
-					<p class="location"><b><a href="http://www.thpt-lequydon-danang.edu.vn/" target="_blank">Lycée
-								d'élite Le Quy Don </a></b> • Danang, Vietnam</p>
-				</td>
-			</tr>
-
-		</table>
+				<div class="location"><b><a href="http://www.thpt-lequydon-danang.edu.vn/" target="_blank">Lycée
+							d'élite Le Quy Don </a></b> • Danang, Vietnam</div>
+			</div>
+		</div>
 	</section>
 
-	<section class="languageCompetence d-flex flex-row justify-content-center">
+	<section class="languageCompetence">
 		<!-- Langue -->
-		<div class="col-6 col-sm-6 pr-0">
-			<div class="caption">Langues</div>
-
-			<div class="date my-4" style="width: 100%; ">
-				<b>Anglais </b>
-				<p>Autonome</p>
+		<div class="row">
+			<div class="col-4 pr-0">
+				<p class="caption">Langues</p>
+	
+				<div class="date" style="width: 100%">
+					<b>Anglais </b>
+					<p>Autonome</p>
+				</div>
+	
+				<div class="date" style="width: 100%">
+					<b>Français</b>
+					<p>Avancé, DELF B1</p>
+				</div>
+	
+				<div class="date" style="width: 100%">
+					<b>Vietnamien</b>
+					<p>Langue maternelle</p>
+				</div>
 			</div>
-
-			<div class="date my-4" style="width: 100%; ">
-				<b>Français</b>
-				<p>Avancé, DELF B1</p>
-			</div>
-
-			<div class="date my-4" style="width: 100%; ">
-				<b>Vietnamien</b>
-				<p>Langue maternelle</p>
-			</div>
-		</div>
-
-		<!-- Compétences -->
-		<div class="col-6 col-sm-6 pl-0">
-			<div class="caption">Compétences</div>
-
-			<div class="description my-2" style="border-left: 7px solid #e06b75;">
-				<p class="competence">LANGAGES ET FRAMEWORK/BIBLIOTHÈQUE: Java, Javascript, ReactJS, ReactNative,
-					ExpressJS, PHP/MySQL</p>
-			</div>
-
-			<div class="description my-2" style="border-left: 7px solid #e06b75;">
-				<p class="competence">WEB: HTML5, CSS/SCSS, Bootstrap</p>
-			</div>
-
-			<div class="description my-2" style="border-left: 7px solid #e06b75;">
-				<p class="competence">OUTILS ET TECHNOLOGIES: Git, Github, UML, MVC, Design Pattern</p>
+	
+			<!-- Compétences -->
+			<div class="col-8 pl-0">
+				<div class="caption" style="padding-left: 100px">Compétences</div>
+	
+				<div class="my-2" style="border-left: 7px solid #e06b75; margin-left: 100px;">
+					<p class="competence">LANGAGES ET FRAMEWORK/BIBLIOTHÈQUE: Java, Javascript, ReactJS, ReactNative,
+						ExpressJS, PHP/MySQL</p>
+				</div>
+	
+				<div class="my-2" style="border-left: 7px solid #e06b75; margin-left: 100px;">
+					<p class="competence">WEB: HTML5, CSS/SCSS, Bootstrap</p>
+				</div>
+	
+				<div class="my-2" style="border-left: 7px solid #e06b75; margin-left: 100px;">
+					<p class="competence">OUTILS ET TECHNOLOGIES: Git, Github, UML, MVC, Design Pattern</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
+	<!-- Project  -->
 	<section class="project">
 		<p class="caption">Projet</p>
 		<ul style="padding-left: 0px">

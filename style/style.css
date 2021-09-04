@@ -20,8 +20,8 @@ body {
 }
 
 .languageCompetence {
-    padding-left: 24px;
-    padding-right: 24px;
+    /* padding-left: 24px;
+    padding-right: 24px; */
 }
 
 /* Introduction */
@@ -86,7 +86,8 @@ body {
 }
 
 .date {
-    padding-right: 100px;
+    padding-right: 140px;
+    margin-right: 100px;
     width: 40%;
 }
 
@@ -96,7 +97,7 @@ body {
 }
 
 .location, .motivation {
-    padding-left: 100px;
+    padding-left: 100px; 
 }
 
 .location {
@@ -107,7 +108,7 @@ table {
     border-collapse: collapse;
 }
 
-.experience table tr:hover, .formation table tr:hover, .languageCompetence table tr .date:hover {
+.experience .row:hover, .formation .row:hover {
     background-color: #efc2c5;
     font-size: 18px;
 }
@@ -153,11 +154,6 @@ a:visited, .svg-inline--fa {
     color: black;
 }
 
-a:active {
-    color: #c9302c;
-}
-
-
 /* Icon in footer section*/
 .svg-inline--fa:hover {
     color: #007bff;
@@ -199,8 +195,12 @@ a:active {
     color: #646464;
 }
 
-.findMe:hover, h6:hover {
+.findMe:hover, h6:hover, a:hover {
     color: #007bff;
+}
+
+a:active {
+    color: #c9302c;
 }
 
 #nom {
